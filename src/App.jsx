@@ -169,7 +169,7 @@ function App() {
                 </>
               )  : (
                 <>
-                  <button className={`bg-[#${button.bg_primary}] py-3 mx-2 rounded-3xl w-[80%] flex justify-center cursor-${button.cursor} ${(button.border !== null) ? 'border border-2' : ''} ${(button.disable === true) ? 'text-neutral-400' : ''}`}>{button.icon}INTERAJA COMIGO</button>
+                  <button className={`bg-[#${button.bg_primary}] py-3 mx-2 rounded-3xl w-[80%] flex justify-center cursor-wait ${(button.border !== null) ? 'border border-2' : ''} ${(button.disable === true) ? 'text-neutral-400' : ''}`}>{button.icon}INTERAJA COMIGO</button>
                   <button className={`bg-[#${button.bg_segundary}] py-3 mx-2 rounded-3xl w-[80%] flex justify-center cursor-${button.cursor} ${(button.border !== null) ? 'border border-2' : ''} ${(button.disable === true) ? 'text-neutral-400' : ''}`}>{button.icon}INTERAJA COMIGO</button>
                   <button className={`py-3 mx-2 rounded-3xl w-40 flex justify-center cursor-${button.cursor} ${(button.border !== null) ? 'border border-2' : ''} ${(button.disable === true) ? 'text-neutral-400' : ''}`}>{button.icon}INTERAJA COMIGO</button>
                 </>
